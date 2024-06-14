@@ -7,7 +7,7 @@
 
     /*========== Colors ==========*/
     /* Change favorite color */
-    --hue-color: 230; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
+    --hue-color: 230; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/ 
 
     /* HSL color mode */
     --first-color: hsl(var(--hue-color), 69%, 61%);
@@ -288,7 +288,7 @@ img {
 }
 
 .home__social-icon{
-  font-size: 1.25rem;
+  font-size: 3.25rem;
   color: var(--first-color);
 }
 
@@ -597,8 +597,8 @@ img {
 
 .qualification__rounder{
   display: inline-block;
-  width: 13px;
-  height: 13px;
+  width: 15px;
+  height: 15px;
   background-color: var(--first-color);
   border-radius: 50%;
 }
@@ -1232,11 +1232,10 @@ img {
 
 
 .skills-container {
-  width: 60%; /* Define a largura da caixa */
+  width: 100%; /* Define a largura da caixa para 100% */
   border: 0px solid #ccc; /* Adiciona uma borda à caixa */
   padding: 10px; /* Adiciona um preenchimento interno à caixa */
   overflow: hidden; /* Esconde o conteúdo que transborda da caixa */
-  margin: 0 auto; /* Centraliza horizontalmente */
 }
 
 .skills {
@@ -1246,4 +1245,30 @@ img {
 .skills img {
   margin-right: 10px; /* Adiciona um espaço entre as imagens */
 }
+
+
+
+.contact__container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.contact__information {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+.contact__icon {
+  font-size: 2rem;
+  margin-right: 10px;
+}
+.contact__title {
+  font-size: 1.2rem;
+  margin: 0;
+}
+.contact__subtitle {
+  font-size: 1rem;
+  color: grey;
+}
+
 
